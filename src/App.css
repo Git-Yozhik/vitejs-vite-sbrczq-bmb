@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 500px;
+
+  box-sizing: border-box;
+}
+
+button {
+  width: 180px;
+}
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  column-gap: 10px;
+  width: 90%;
+  margin: 10px;
+}
+
+.back-colors {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  gap: 5px;
+}
+
+.color {
+  width: 245px;
+  height: 50px;
+  border: 1px salmon solid;
+  /* box-sizing: border-box; */
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
